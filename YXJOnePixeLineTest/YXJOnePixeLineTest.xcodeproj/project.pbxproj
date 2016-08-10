@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7649D138EE6BDEDA183ACFF /* Pods_YXJOnePixeLineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09477C0979DD61A8D36A7F8 /* Pods_YXJOnePixeLineTest.framework */; };
+		DE7F7C4D1D5ADE870083784A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F7C4C1D5ADE870083784A /* AppDelegate.swift */; };
+		DE7F7C4F1D5ADE870083784A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F7C4E1D5ADE870083784A /* ViewController.swift */; };
+		DE7F7C521D5ADE870083784A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C501D5ADE870083784A /* Main.storyboard */; };
+		DE7F7C541D5ADE870083784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C531D5ADE870083784A /* Assets.xcassets */; };
+		DE7F7C571D5ADE870083784A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F7C551D5ADE870083784A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07DC1DB31A0E249566619AE8 /* Pods-YXJOnePixeLineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJOnePixeLineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXJOnePixeLineTest/Pods-YXJOnePixeLineTest.release.xcconfig"; sourceTree = "<group>"; };
+		8AA8D46667D8FF052C35B758 /* Pods-YXJOnePixeLineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJOnePixeLineTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXJOnePixeLineTest/Pods-YXJOnePixeLineTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7F7C491D5ADE870083784A /* YXJOnePixeLineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJOnePixeLineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7F7C4C1D5ADE870083784A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE7F7C4E1D5ADE870083784A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE7F7C511D5ADE870083784A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE7F7C531D5ADE870083784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE7F7C561D5ADE870083784A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE7F7C581D5ADE870083784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09477C0979DD61A8D36A7F8 /* Pods_YXJOnePixeLineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJOnePixeLineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE7F7C461D5ADE870083784A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7649D138EE6BDEDA183ACFF /* Pods_YXJOnePixeLineTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2701F7EEBD05045AB4BEA6EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AA8D46667D8FF052C35B758 /* Pods-YXJOnePixeLineTest.debug.xcconfig */,
+				07DC1DB31A0E249566619AE8 /* Pods-YXJOnePixeLineTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A50ECC15509CFADF5A6D2375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E09477C0979DD61A8D36A7F8 /* Pods_YXJOnePixeLineTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE7F7C401D5ADE870083784A = {
+			isa = PBXGroup;
+			children = (
+				DE7F7C4B1D5ADE870083784A /* YXJOnePixeLineTest */,
+				DE7F7C4A1D5ADE870083784A /* Products */,
+				2701F7EEBD05045AB4BEA6EC /* Pods */,
+				A50ECC15509CFADF5A6D2375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE7F7C4A1D5ADE870083784A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F7C491D5ADE870083784A /* YXJOnePixeLineTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE7F7C4B1D5ADE870083784A /* YXJOnePixeLineTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F7C4C1D5ADE870083784A /* AppDelegate.swift */,
+				DE7F7C4E1D5ADE870083784A /* ViewController.swift */,
+				DE7F7C501D5ADE870083784A /* Main.storyboard */,
+				DE7F7C531D5ADE870083784A /* Assets.xcassets */,
+				DE7F7C551D5ADE870083784A /* LaunchScreen.storyboard */,
+				DE7F7C581D5ADE870083784A /* Info.plist */,
+			);
+			path = YXJOnePixeLineTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE7F7C481D5ADE870083784A /* YXJOnePixeLineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7F7C5B1D5ADE870083784A /* Build configuration list for PBXNativeTarget "YXJOnePixeLineTest" */;
+			buildPhases = (
+				BAA50FD6978EF70348E37143 /* [CP] Check Pods Manifest.lock */,
+				DE7F7C451D5ADE870083784A /* Sources */,
+				DE7F7C461D5ADE870083784A /* Frameworks */,
+				DE7F7C471D5ADE870083784A /* Resources */,
+				78A599EE33E31267447265D5 /* [CP] Embed Pods Frameworks */,
+				9ACE1700E9EE04928566328F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXJOnePixeLineTest;
+			productName = YXJOnePixeLineTest;
+			productReference = DE7F7C491D5ADE870083784A /* YXJOnePixeLineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE7F7C411D5ADE870083784A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "袁晓钧";
+				TargetAttributes = {
+					DE7F7C481D5ADE870083784A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE7F7C441D5ADE870083784A /* Build configuration list for PBXProject "YXJOnePixeLineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE7F7C401D5ADE870083784A;
+			productRefGroup = DE7F7C4A1D5ADE870083784A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE7F7C481D5ADE870083784A /* YXJOnePixeLineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE7F7C471D5ADE870083784A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7F7C571D5ADE870083784A /* LaunchScreen.storyboard in Resources */,
+				DE7F7C541D5ADE870083784A /* Assets.xcassets in Resources */,
+				DE7F7C521D5ADE870083784A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78A599EE33E31267447265D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXJOnePixeLineTest/Pods-YXJOnePixeLineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACE1700E9EE04928566328F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXJOnePixeLineTest/Pods-YXJOnePixeLineTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA50FD6978EF70348E37143 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7F7C451D5ADE870083784A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7F7C4F1D5ADE870083784A /* ViewController.swift in Sources */,
+				DE7F7C4D1D5ADE870083784A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE7F7C501D5ADE870083784A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7F7C511D5ADE870083784A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE7F7C551D5ADE870083784A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE7F7C561D5ADE870083784A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE7F7C591D5ADE870083784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE7F7C5A1D5ADE870083784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7F7C5C1D5ADE870083784A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA8D46667D8FF052C35B758 /* Pods-YXJOnePixeLineTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXJOnePixeLineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJOnePixeLineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE7F7C5D1D5ADE870083784A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DC1DB31A0E249566619AE8 /* Pods-YXJOnePixeLineTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXJOnePixeLineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YXJ.YXJOnePixeLineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE7F7C441D5ADE870083784A /* Build configuration list for PBXProject "YXJOnePixeLineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7F7C591D5ADE870083784A /* Debug */,
+				DE7F7C5A1D5ADE870083784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7F7C5B1D5ADE870083784A /* Build configuration list for PBXNativeTarget "YXJOnePixeLineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7F7C5C1D5ADE870083784A /* Debug */,
+				DE7F7C5D1D5ADE870083784A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE7F7C411D5ADE870083784A /* Project object */;
+}

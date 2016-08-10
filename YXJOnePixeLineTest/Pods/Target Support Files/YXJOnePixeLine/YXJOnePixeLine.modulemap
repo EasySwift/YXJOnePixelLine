@@ -1,0 +1,6 @@
+framework module YXJOnePixeLine {
+  umbrella header "YXJOnePixeLine-umbrella.h"
+
+  export *
+  module * { export * }
+}
